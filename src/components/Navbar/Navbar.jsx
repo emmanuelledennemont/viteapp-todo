@@ -27,7 +27,7 @@ const Navbar = () => {
               Todo list
             </Link>
             <Link to="/services">
-              Kaban
+              Kanban
             </Link>
             <Link to="/about">
               Calendar

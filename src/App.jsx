@@ -65,7 +65,7 @@ function App() {
     {/* <Routes>
       <Route />
       <Route path="/todolist" element={<Home />} />
-      <Route path="/Kaban" element={<Services />} />
+      <Route path="/kanban" element={<Services />} />
       <Route path="/calendar" element={<About />} />
       <Route path="/notes" element={<Favoris/>} />
       <Route path="/signin" element={<Signin />} />
