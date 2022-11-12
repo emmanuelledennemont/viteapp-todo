@@ -2,6 +2,7 @@ import styles from "./header.module.css";
 import Logo from "../../assets/Logo.svg";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { useState } from "react";
+import Navbar from "../Navbar/Navbar";
 
 const Header = ({ handleAddTask }) => {
   const [title, setTitle] = useState("");
@@ -21,6 +22,7 @@ const Header = ({ handleAddTask }) => {
 
   return (
     <>
+    <Navbar />
       <header className={styles.header}>
         <img src={Logo} alt="Logo todo rocket" />
         <form onSubmit={handleSubmit} className={styles.newTaskForm}>
@@ -30,7 +32,7 @@ const Header = ({ handleAddTask }) => {
             onChange={onChangeTitle}
             value={title}
           />
-          <button>
+          <button className={styles.ripple}>
             Create
             <AiOutlinePlusCircle size={20} />
           </button>

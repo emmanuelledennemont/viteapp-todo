@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import AddTasks from "./components/AddTasks";
+import { BrowserRouter as Router} from "react-router-dom";
 
 const LOCAL_STORAGE_KEY = "todo:tasks";
 
@@ -53,13 +54,26 @@ function App() {
   };
 
   return (
-    <>
+    <> <Router>
       <Header handleAddTask={addTask} />
       <AddTasks
         tasks={tasks}
         onDelete={deleteTaskById}
         onComplete={toggleTaskCompletedById}
       />
+
+    {/* <Routes>
+      <Route />
+      <Route path="/todolist" element={<Home />} />
+      <Route path="/Kaban" element={<Services />} />
+      <Route path="/calendar" element={<About />} />
+      <Route path="/notes" element={<Favoris/>} />
+      <Route path="/signin" element={<Signin />} />
+      <Route path="/signup" element={<Signup />} />
+  
+    </Routes> */}
+  </Router>
+    
     </>
   );
 }
