@@ -24,14 +24,14 @@ function App() {
   }, []);
 
   const addTask = (taskTitle) => {
-    setTasksAndSave([
-      ...tasks,
-      {
-        id: crypto.randomUUID(),
-        title: taskTitle,
-        isCompleted: false,
-      },
-    ]);
+      setTasksAndSave([
+        ...tasks,
+        {
+          id: crypto.randomUUID(),
+          title: taskTitle,
+          isCompleted: false,
+        },
+      ]);
   };
 
   const deleteTaskById = (taskId) => {

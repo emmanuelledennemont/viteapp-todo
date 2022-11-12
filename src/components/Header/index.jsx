@@ -7,9 +7,12 @@ const Header = ({ handleAddTask }) => {
   const [title, setTitle] = useState("");
 
   const handleSubmit = (event) => {
-    event.preventDefault();
-    handleAddTask(title);
-    setTitle("");
+    if(!title){
+    }else{
+      event.preventDefault();
+      handleAddTask(title);
+      setTitle(""); 
+    }
   };
 
   const onChangeTitle = (event) => {
