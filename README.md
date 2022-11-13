@@ -10,7 +10,7 @@ My React App : [![Netlify Status](https://api.netlify.com/api/v1/badges/442c11d2
 
 - [ ]  Sur cette page, l'utilisateur pourra ajouter des tâches via un formulaire.
 
-- [ ]  Les tâches seront affichées au-dessus, sous forme de liste. 
+- [ ]  Les tâches seront affichées au-dessous, sous forme de liste. 
 
 - [ ]  Cliquer sur la checkbox de la tâche permettra de la définir comme faite, elle deviendra alors barrée.
 
