@@ -2,7 +2,7 @@ import styles from "./header.module.css";
 import Logo from "../../assets/Logo.svg";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { useState } from "react";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../Navbar";
 
 const Header = ({ handleAddTask }) => {
   const [title, setTitle] = useState("");
