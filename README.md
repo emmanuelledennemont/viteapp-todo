@@ -16,6 +16,6 @@ My React App : [![Netlify Status](https://api.netlify.com/api/v1/badges/442c11d2
 
 - [ ]  Un nouveau clic sur la checkbox permettra de redéfinir la tâche comme non-faite. Cliquer sur la poubelle supprimera la tâche.
 
-##Resultat attendu
+## Resultat attendu
 
 <img width="1721" alt="Capture d’écran 2022-11-13 à 15 02 19" src="https://user-images.githubusercontent.com/89101530/201525848-12d29492-8379-4921-a164-c79a34aced74.png">
