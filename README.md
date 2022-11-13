@@ -4,7 +4,7 @@
 
 ### URL.s
 
-My React App : [![Netlify Status](https://api.netlify.com/api/v1/badges/442c11d2-e86f-4974-b2ac-c08e8b233569/deploy-status)](https://endearing-faloodeh-5641e5.netlify.app/)
+My React App : [![Netlify Status](https://api.netlify.com/api/v1/badges/442c11d2-e86f-4974-b2ac-c08e8b233569/deploy-status)](https://endearing-faloodeh-5641e5.netlify.app/) : https://endearing-faloodeh-5641e5.netlify.app/
 
 ### RoadMap & Interactions
 
