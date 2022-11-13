@@ -1,6 +1,6 @@
 # viteapp-todo
 
-## Todolist
+## Todolist <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 
 ### URL.s
 
@@ -19,3 +19,15 @@ My React App : [![Netlify Status](https://api.netlify.com/api/v1/badges/442c11d2
 ## Resultat attendu
 
 <img width="1721" alt="Capture d’écran 2022-11-13 à 15 02 19" src="https://user-images.githubusercontent.com/89101530/201525848-12d29492-8379-4921-a164-c79a34aced74.png">
+
+## Available Scripts
+
+You can clone this project with the command line 'git clone', install dependencies with "yarn" and you can run :
+
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
